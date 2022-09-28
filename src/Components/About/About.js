@@ -43,8 +43,17 @@ const About = ({about}) => {
            <div><button><p>50s</p></button></div>
         </div>
     
-       <p>Total Price : ${time} </p>
+    <h4>Exercise Details</h4>
+     <div className='time'>
+        <p>Exercise time    {time}</p>
+     </div>
+     <div className='time'>
+        <p>Break time    </p>
+     </div>
        
+     <button id='btn'>
+          <p>Activity Completed</p>
+     </button>
         
 
         

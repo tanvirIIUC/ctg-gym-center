@@ -9,6 +9,12 @@
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(235, 218, 187);
+}
+.user-details div{
+    margin: 10px;
 }
 .break-time-contain{
     display: flex;
@@ -16,11 +22,29 @@
     margin: 20px 0;
     border: 1px solid ;
     border-radius: 10px;
+    background-color: rgb(235, 218, 187);
 }
 .break-time-contain button{
     border-radius: 20px;
     border: none;
+    margin: 10px;
 }
 .break-time-contain button:hover{
+    background-color: orange;
+}
+.time{
+    background-color: rgb(235, 218, 187); 
+    padding-left: 30px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#btn{
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+}
+#btn:hover{
     background-color: orange;
 }
