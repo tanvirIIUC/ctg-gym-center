@@ -1,0 +1,16 @@
+.instrument{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   gap: 45px;
+}
+.main{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    padding-left:50px ;
+    
+
+}
+.instrument-contain{
+    margin-left: 20px;
+    background-color: rgb(245, 206, 134);
+}
