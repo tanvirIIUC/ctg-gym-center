@@ -33,9 +33,18 @@ const About = ({about}) => {
             </div>
             
         </div>
-        
-        <p>Total Price : ${time} </p>
-        
+
+        <h4>Add A Break</h4>
+        <div className='break-time-contain'>
+           <div><button><p>10s</p></button></div>
+           <div><button><p>20s</p></button></div>
+           <div><button><p>30s</p></button></div>
+           <div><button><p>40s</p></button></div>
+           <div><button><p>50s</p></button></div>
+        </div>
+    
+       <p>Total Price : ${time} </p>
+       
         
 
         

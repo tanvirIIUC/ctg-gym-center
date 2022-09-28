@@ -8,4 +8,19 @@
 .user-details{
     display: flex;
     justify-content: space-between;
+    margin: 50px 0;
+}
+.break-time-contain{
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px 0;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.break-time-contain button{
+    border-radius: 20px;
+    border: none;
+}
+.break-time-contain button:hover{
+    background-color: orange;
 }
