@@ -11,10 +11,25 @@ const About = ({about}) => {
     }
     return (
         <div className='cart-contain'>
-        <div>
+        <div className='user-info'>
             <img src="" alt="" />
             <div>
             <h4>Tanvir Hasan Sohan</h4>
+            <small>Chittagong,Bangladesh</small>
+            </div>
+            <div className='user-details'>
+               <div>
+                <h4>60</h4>
+                <small>Weight</small>
+               </div>
+               <div>
+                <h4>6.5</h4>
+                <small>Height</small>
+               </div>
+               <div>
+                <h4>22</h4>
+                <small>Age</small>
+               </div>
             </div>
             
         </div>
