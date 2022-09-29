@@ -25,7 +25,7 @@ const Club = () => {
         
     }
 
-    console.log(instruments.length);
+    
     return (
         <div className='main'>
             

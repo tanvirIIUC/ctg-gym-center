@@ -48,3 +48,6 @@
 #btn:hover{
     background-color: orange;
 }
+.user{
+    display: flex;
+}
