@@ -28,7 +28,7 @@ const About = ({about}) => {
             <img src="" alt="" />
             <div className='user'>
                <div>
-                  <img src="../../../public/sohan.jpeg" alt="" />
+                  <img src='sohan.jpeg' alt="" />
                </div>
                <div>
                <h4>Tanvir Hasan Sohan</h4>

@@ -50,4 +50,12 @@
 }
 .user{
     display: flex;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: rgb(235, 218, 187);
+}
+.user img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
 }
