@@ -1,12 +1,16 @@
 .item img{
      
     height: 286px;
-    width: 286px;
+    width:100%;
     border-radius: 8px;
-    margin: 7px;
+    /* margin: 7px; */
 }
-
-
+.item{
+    margin-top: 10px;
+}
+.button{
+    width: 100%;
+}
 
 .item-info p{
   margin-top: -10px;
@@ -41,5 +45,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .item img{
+     
+        height: 286px;
+        width: 286px;
+        border-radius: 8px;
+        margin: 7px;
     }
   }

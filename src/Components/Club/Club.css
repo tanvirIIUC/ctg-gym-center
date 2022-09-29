@@ -14,6 +14,9 @@
 .blogs h3{
     text-align: center;
 }
+.instrument-container{
+    margin-top: 30px;
+}
 
 @media screen and (min-width: 768px) {
     .main{
@@ -33,5 +36,6 @@
         margin-left: 20px;
         background-color: rgb(245, 206, 134);
     }
+
     
   }

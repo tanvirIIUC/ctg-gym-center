@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import About from '../About/About';
 import Item from '../Items/Item';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 import './Club.css'
 
 const Club = () => {
@@ -29,8 +31,8 @@ const Club = () => {
     return (
         <div className='main'>
             
-            <div className="">
-             <h2>Ctg-Gym-Center</h2>
+            <div className="instrument-container">
+             <h2> <FontAwesomeIcon icon={faDumbbell} /> Ctg-Gym-Center</h2>
              <h5>Choose today's done</h5>
             <div className='instrument'>
             {
