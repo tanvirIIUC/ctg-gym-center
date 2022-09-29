@@ -68,7 +68,7 @@ const About = ({about}) => {
      </div>
      <div className='time'>
          
-        <p>Break time  {breaktime} </p>
+        <p>Break time  {breaktime}s </p>
      </div>
        
        

@@ -15,5 +15,13 @@
     background-color: rgb(245, 206, 134);
 }
 .blogs{
-    
+    margin-top: 20px;
+}
+.blogs div{
+    border: 1px solid;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.blogs h3{
+    text-align: center;
 }
