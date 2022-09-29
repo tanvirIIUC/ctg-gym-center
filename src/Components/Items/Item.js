@@ -11,7 +11,7 @@ const Item = (props) => {
         <div className='item-info'>
         <h2>{name}</h2>
         <p>For Age : {age}</p>
-        <p>Time required : {time}s</p>
+        <p>Time required : {time}min</p>
         <div>
         <button onClick={()=>props.handleAddToCArd(props.instrument)}  className='button'>
           <p>Add to Card</p>
