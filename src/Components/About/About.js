@@ -23,7 +23,7 @@ const About = ({about}) => {
     localStorage.setItem('breakTime',breaktime);
     
     return (
-        <div className='cart-contain'>
+        <div className='user-contain'>
         <div className='user-info'>
             <img src="" alt="" />
             <div className='user'>

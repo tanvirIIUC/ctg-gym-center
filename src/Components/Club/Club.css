@@ -1,17 +1,17 @@
 .instrument{
-    display: grid;
+   /*  display: grid;
     grid-template-columns: repeat(3,1fr);
-   gap: 45px;
+   gap: 45px; */
 }
 .main{
-    display: grid;
+   /*  display: grid;
     grid-template-columns:4fr 1fr;
-    padding-left:50px ;
+    padding-left:50px ; */
     
 
 }
 .instrument-contain{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     background-color: rgb(245, 206, 134);
 }
 .blogs{
@@ -25,3 +25,23 @@
 .blogs h3{
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .main{
+        display: grid;
+        grid-template-columns:4fr 1fr;
+        padding-left:50px ;
+        
+    
+    }
+    .instrument{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       gap: 45px;
+    }
+    .instrument-contain{
+        margin-left: 20px;
+        background-color: rgb(245, 206, 134);
+    }
+    
+  }
