@@ -4,12 +4,14 @@
     background-color: rgb(245, 206, 134);
 }
 .blogs{
-    margin-top: 20px;
+    margin: 20px 10px;
+    
 }
 .blogs div{
     border: 1px solid;
     margin: 10px 0;
     border-radius: 10px;
+    padding: 5px;
 }
 .blogs h3{
     text-align: center;
@@ -17,6 +19,7 @@
 .instrument-container{
     margin-top: 30px;
 }
+
 
 @media screen and (min-width: 768px) {
     .main{

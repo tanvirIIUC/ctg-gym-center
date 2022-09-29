@@ -57,11 +57,11 @@ const About = ({about}) => {
 
         <h4>Add A Break</h4>
         <div className='break-time-contain'>
-           <div onClick={()=>HandleTime(10)}><button><p>10s</p></button></div>
-           <div onClick={()=>HandleTime(20)}><button><p>20s</p></button></div>
-           <div onClick={()=>HandleTime(30)}><button><p>30s</p></button></div>
-           <div onClick={()=>HandleTime(40)}><button><p>40s</p></button></div>
-           <div onClick={()=>HandleTime(50)}><button><p>50s</p></button></div>
+           <div onClick={()=>HandleTime(10)}><button><p>10min</p></button></div>
+           <div onClick={()=>HandleTime(20)}><button><p>20min</p></button></div>
+           <div onClick={()=>HandleTime(30)}><button><p>30min</p></button></div>
+           <div onClick={()=>HandleTime(40)}><button><p>40min</p></button></div>
+           <div onClick={()=>HandleTime(50)}><button><p>50min</p></button></div>
         </div>
     
     <h4>Exercise Details</h4>
