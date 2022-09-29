@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import './About.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const About = ({about}) => {
     let time =0;
     
-    
+    const notify = () => toast("Wow so easy!");
     for(const instrument of about){
           time=time+instrument.time;
           
@@ -54,10 +56,10 @@ const About = ({about}) => {
         <h4>Add A Break</h4>
         <div className='break-time-contain'>
            <div onClick={()=>HandleTime(10)}><button><p>10s</p></button></div>
-           <div><button><p>20s</p></button></div>
-           <div><button><p>30s</p></button></div>
-           <div><button><p>40s</p></button></div>
-           <div><button><p>50s</p></button></div>
+           <div onClick={()=>HandleTime(20)}><button><p>20s</p></button></div>
+           <div onClick={()=>HandleTime(30)}><button><p>30s</p></button></div>
+           <div onClick={()=>HandleTime(40)}><button><p>40s</p></button></div>
+           <div onClick={()=>HandleTime(50)}><button><p>50s</p></button></div>
         </div>
     
     <h4>Exercise Details</h4>
@@ -69,9 +71,11 @@ const About = ({about}) => {
         <p>Break time  {breaktime} </p>
      </div>
        
-     <button id='btn'>
+       
+     <button onClick={notify}  id='btn'>
           <p>Activity Completed</p>
      </button>
+     <ToastContainer />
 
         
 
