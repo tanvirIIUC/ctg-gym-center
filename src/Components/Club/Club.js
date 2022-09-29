@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import About from '../About/About';
 import Item from '../Items/Item';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import './Club.css'
 
 const Club = () => {

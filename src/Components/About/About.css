@@ -55,7 +55,13 @@
     background-color: rgb(235, 218, 187);
 }
 .user img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 20px;
+}
+#kg{
+    font-size: 12px;
+}
+#yrs{
+    font-size: 12px;
 }

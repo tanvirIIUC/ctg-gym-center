@@ -17,10 +17,12 @@ const About = ({about}) => {
     const [breaktime,setBreaktime]=useState('');
 
     const HandleTime = (props)=>{
-         console.log(props)
+         
          setBreaktime(props);
+         localStorage.setItem('break-Time',props);
     }
-    localStorage.setItem('breakTime',breaktime);
+    const oldtime = localStorage.getItem('break-Time');
+   
     
     return (
         <div className='user-contain'>
@@ -28,7 +30,7 @@ const About = ({about}) => {
             <img src="" alt="" />
             <div className='user'>
                <div>
-                  <img src='sohan.jpeg' alt="" />
+                  <img src='sohan-removebg-preview (1).png' alt="" />
                </div>
                <div>
                <h4>Tanvir Hasan Sohan</h4>
@@ -38,7 +40,7 @@ const About = ({about}) => {
             </div>
             <div className='user-details'>
                <div>
-                <h4>60</h4>
+                <h4>60<samp id='kg'>kg</samp></h4>
                 <small>Weight</small>
                </div>
                <div>
@@ -46,7 +48,7 @@ const About = ({about}) => {
                 <small>Height</small>
                </div>
                <div>
-                <h4>22</h4>
+                <h4>22<span id='yrs'>yrs</span></h4>
                 <small>Age</small>
                </div>
             </div>
@@ -68,7 +70,7 @@ const About = ({about}) => {
      </div>
      <div className='time'>
          
-        <p>Break time  {breaktime}s </p>
+        <p>Break time  {oldtime}s </p>
      </div>
        
        
