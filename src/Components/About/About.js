@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const About = ({about}) => {
     let time =0;
     
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast("Successful!!!");
     for(const instrument of about){
           time=time+instrument.time;
           
